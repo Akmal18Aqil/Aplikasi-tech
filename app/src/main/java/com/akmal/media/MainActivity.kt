@@ -1,22 +1,44 @@
 package com.akmal.media
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toolbar
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvHeroes : RecyclerView
     private val list = ArrayList<Hero>()
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         rvHeroes = findViewById(R.id.rv_heroes)
         rvHeroes.setHasFixedSize(true)
 
         list.addAll(getListHeroes())
         showRecyclerList()
+    }
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.main_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
+//        setActionBar(item.itemId)
+
+        return super.onOptionsItemSelected(item)
     }
     private fun getListHeroes(): ArrayList<Hero> {
         val dataName = resources.getStringArray(R.array.data_name)

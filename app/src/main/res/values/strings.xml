@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyRecyclerView</string>
+    <string name="app_name">M-Tech Akademi</string>
 
     <string name="heroes_name">Nama Pahlawan</string>
     <string name="description">Deskripsi</string>
@@ -10,7 +10,7 @@
         <item>Jurnalis</item>
         <item>Studio Musik</item>
         <item>Videografi</item>
-<!--        <item>Soedirman</item>-->
+        <!--        <item>Soedirman</item>-->
 
     </string-array>
     <string-array name="data_description">
@@ -35,4 +35,9 @@
         <item>@drawable/g</item>
         <item>@drawable/g</item>
     </integer-array>
+    <string name="Dalam_jurnalis">Jurusan Akademi bidang Web Developer adalah program pendidikan yang dirancang untuk mempersiapkan siswa dalam menguasai keterampilan dan pengetahuan yang diperlukan untuk menjadi seorang pengembang web yang kompeten. Program ini biasanya mencakup topik-topik seperti pemrograman web, pengembangan front-end, pengembangan back-end, desain web, basis data, dan pemahaman tentang berbagai bahasa pemrograman dan kerangka kerja yang digunakan dalam pengembangan web.Jurusan Akademi bidang Web Developer adalah program pendidikan yang dirancang untuk mempersiapkan siswa dalam menguasai keterampilan dan pengetahuan yang diperlukan untuk menjadi seorang pengembang web yang kompeten. Program ini biasanya mencakup topik-topik seperti pemrograman web, pengembangan front-end, pengembangan back-end, desain web, basis data, dan pemahaman tentang berbagai bahasa pemrograman dan kerangka kerja yang digunakan dalam pengembangan web.</string>
+    <string name="Dalam_grafis">Bidang Fotografi merupakan disiplin seni dan teknik yang berfokus pada penciptaan gambar-gambar visual dengan menggunakan kamera. Jurusan atau program pendidikan dalam bidang fotografi memberikan pengetahuan dan keterampilan yang diperlukan untuk menjadi seorang fotografer yang kompeten dan kreatif.</string>
+    <string name="Dalam_foto">Bidang Fotografi merupakan disiplin seni dan teknik yang berfokus pada penciptaan gambar-gambar visual dengan menggunakan kamera. Jurusan atau program pendidikan dalam bidang fotografi memberikan pengetahuan dan keterampilan yang diperlukan untuk menjadi seorang fotografer yang kompeten dan kreatif.</string>
+    <string name="Dalam_studio">Sebuah Studio Musik adalah fasilitas khusus yang dirancang untuk merekam, mengedit, dan menciptakan musik. Program pendidikan atau jurusan dalam bidang studio musik memberikan siswa pengetahuan dan keterampilan yang diperlukan untuk bekerja di industri musik, baik sebagai insinyur suara, produser, musisi, atau dalam peran lain yang terkait dengan produksi musik.</string>
+    <string name="Dalam_video">Bidang Videografi adalah disiplin yang berfokus pada pembuatan video, film, atau konten visual bergerak dengan menggunakan kamera video dan alat terkait. Jurusan atau program pendidikan dalam bidang videografi memberikan pelatihan yang komprehensif untuk mempersiapkan individu menjadi seorang videografer yang kompeten dan kreatif.</string>
 </resources>
